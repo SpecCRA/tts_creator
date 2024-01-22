@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "tts"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = "^4.35.2"
+accelerate = "^0.24.1"
+ipykernel = "^6.26.0"
+jupyter = "^1.0.0"
+pydub = "^0.25.1"
+moviepy = "^1.0.3"
+pyannote-audio = "^3.1.0"
+python-dotenv = "^1.0.0"
+torchvision = "^0.16.2"
+speechbrain = "^0.5.16"
+hydra-core = "^1.3.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
